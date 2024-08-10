@@ -69,6 +69,9 @@ let g:ycm_show_diagnostics_ui = 0
 " show inlay hints as comments
 let g:ycm_enable_inlay_hints = 0
 let g:ycm_clear_inlay_hints_in_insert_mode = 1
+" close preview window automatically
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 " doesn't work. replaced YcmInlayHint with Comment in python/ycm/inlayHints.py
 "hi! link YcmInlayHint Comment
 " toggle inlay hints
